@@ -13,7 +13,7 @@
   
   <scm> 
   	<developerConnection>
-  	scm:git:[fetch=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git[push=]ssh://git@github.com:git-sunil/MavenTestProject.git
+  	scm:git:[fetch=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git[push=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git
   	</developerConnection>
   </scm>
   
