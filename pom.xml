@@ -12,15 +12,18 @@
   </properties>
   
   <scm> 
+  	<connection>scm:git:https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git</connection>
   	<developerConnection>
   	scm:git:[fetch=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git[push=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git
   	</developerConnection>
+    <url>https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git</url>
+    <tag>HEAD</tag>
   </scm>
   
   <distributionManagement>
     <repository>
-        <id>absolute directory</id>
-        <url>file:///d/TestApp</url>
+        <id>dev.release</id>
+        <url>file:${project.build.directory}/repository/</url>
     </repository>
   </distributionManagement>
   
