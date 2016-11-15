@@ -12,11 +12,11 @@
   </properties>
   
   <scm> 
-  	<connection>scm:git:https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git</connection>
+  	<connection>scm:git:https://github.com/git-sunil/MavenTestProject.git</connection>
   	<developerConnection>
-  	scm:git:[fetch=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git[push=]https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git
+  	scm:git:[fetch=]https://github.com/git-sunil/MavenTestProject.git[push=]https://github.com/git-sunil/MavenTestProject.git
   	</developerConnection>
-    <url>https://git-sunil:%3F1978bipin1979@github.com/git-sunil/MavenTestProject.git</url>
+    <url>https://github.com/git-sunil/MavenTestProject.git</url>
     <tag>HEAD</tag>
   </scm>
   
@@ -42,6 +42,7 @@
 			    </dependency>
 			</dependencies>
 	          <configuration>
+	          
                 <autoVersionSubmodules>true</autoVersionSubmodules>
               </configuration>
 	        </plugin>
